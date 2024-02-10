@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main-sec {
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* 
+#head1 {
+    text-align: center;
+
+} */
+
+#btn1 {
+    border-style: none;
+}
+
+.sec-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-btn {
+    border-style: none;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(242, 245, 247);
+    text-align: center;
+}
+
+.gear-btn {
+    background-color: rgb(242, 245, 247);
+}
+
+.log-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.log-sec1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sec-2 {
+    margin-top: 15px;
+
+    height: 450px;
+    background-color: rgb(242, 245, 247);
+}
+
+.box-sec {
+    height: 60px;
+    background-color: white;
+    border-radius: 18px;
+}
+
+#list-btn {
+    border-style: none;
+    width: 13rem;
+    border-radius: 12px;
+    height: 2.4rem;
+    background-color: rgb(242, 245, 247);
+}
+
+#plus-btn {
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(242, 245, 247);
+}
+
+#map-btn {
+    border-style: none;
+    background-color: rgb(242, 245, 247);
+    width: 13rem;
+    border-radius: 12px;
+    height: 2.4rem;
+
+}
+
+#s-input {
+    border-radius: 15px;
+    height: 55px;
+    border-style: none;
+    padding-left: 20px;
+    font-size: larger;
+}
+
+#s-input::placeholder {
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+input#s-input {
+    border: none;
+    outline: none;
+    /* Remove default outline on focus */
+}
+
+
+.sec-4 {
+    background-color: rgb(235, 234, 234);
+    height: 800px;
+}
+
+/* Remove all border and outline styling from the textarea */
+
+#w3review {
+    border-radius: 15px;
+    height: 130px;
+    padding-top: 8px;
+    padding-left: 20px;
+}
+
+#w3review {
+    border: none;
+    outline: none;
+    /* Remove default outline on focus */
+}
+
+.card {
+    height: 160px;
+    border-radius: 20px;
+}
+
+/* Media query for screens between 576px and 767px */
+@media screen and (min-width: 575px) and (max-width: 767px) {
+    .card {
+        width: 18rem;
+        margin: auto;
+    }
+    .img-sec {
+        margin-top: 12px;
+        
+
+    }
+    .img-card {
+        margin-top: 12px;
+
+    }
+}
+
+@media screen and (min-width: 366px) and (max-width: 575px) {
+    .img-card {
+        margin-top: 12px;
+
+    }
+
+    .img-sec {
+        margin-top: 10px;
+        padding: 10px;
+        
+
+    }
+
+    .card {
+        width: 15rem;
+        margin: auto;
+        margin-top: 12px;
+
+    }
+}
+@media screen and (min-width: 220px) and (max-width: 365px) {
+    .img-card {
+        margin-top: 12px;
+
+    }
+
+    .img-sec {
+        margin-top: 10px;
+     
+        
+
+    }
+
+    
+}
