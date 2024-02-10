@@ -5,6 +5,10 @@ body {
 
 }
 
+.page-2 {
+    background-color: #F8C25A;
+}
+
 .main-sec {
     height: 320px;
     display: flex;
@@ -32,13 +36,11 @@ body {
     border-style: none;
     height: 40px;
     width: 100px;
-    background-color: rgb(242, 245, 247);
+
     text-align: center;
 }
 
-.gear-btn {
-    background-color: rgb(242, 245, 247);
-}
+
 
 .log-sec {
     display: flex;
@@ -56,51 +58,37 @@ body {
     margin-top: 15px;
 
     height: 450px;
-    background-color: rgb(242, 245, 247);
+
 }
 
 .box-sec {
     height: 60px;
     background-color: white;
-    border-radius: 18px;
+    /* border-radius: 18px; */
 }
 
-#list-btn {
-    border-style: none;
-    width: 13rem;
-    border-radius: 12px;
-    height: 2.4rem;
-    background-color: rgb(242, 245, 247);
-}
+
 
 #plus-btn {
     height: 3rem;
     width: 3rem;
-    background-color: rgb(242, 245, 247);
+   background-color: #E49700;
 }
 
-#map-btn {
-    border-style: none;
-    background-color: rgb(242, 245, 247);
-    width: 13rem;
-    border-radius: 12px;
-    height: 2.4rem;
 
-}
 
 #s-input {
-    border-radius: 15px;
-    height: 55px;
+    /* border-radius: 15px; */
+    height: 45px;
     border-style: none;
     padding-left: 20px;
     font-size: larger;
-}
 
-#s-input::placeholder {
-    font-weight: bold;
-    font-size: x-large;
+    width: 23rem;
 
 }
+
+
 
 input#s-input {
     border: none;
@@ -110,17 +98,16 @@ input#s-input {
 
 
 .sec-4 {
-    background-color: rgb(235, 234, 234);
-    height: 800px;
+
+    height: 500px;
 }
 
 /* Remove all border and outline styling from the textarea */
 
 #w3review {
-    border-radius: 15px;
+    /* border-radius: 15px; */
     height: 130px;
-    padding-top: 8px;
-    padding-left: 20px;
+
 }
 
 #w3review {
@@ -130,28 +117,31 @@ input#s-input {
 }
 
 .card {
-    height: 160px;
-    border-radius: 20px;
+    height: 180px;
+    border-radius: 0px;
+
 }
 
 /* Media query for screens between 576px and 767px */
-@media screen and (min-width: 575px) and (max-width: 767px) {
+/* @media screen and (min-width: 575px) and (max-width: 767px) {
     .card {
         width: 18rem;
         margin: auto;
     }
+
     .img-sec {
         margin-top: 12px;
-        
+
 
     }
+
     .img-card {
         margin-top: 12px;
 
     }
-}
+} */
 
-@media screen and (min-width: 366px) and (max-width: 575px) {
+/* @media screen and (min-width: 366px) and (max-width: 575px) {
     .img-card {
         margin-top: 12px;
 
@@ -160,7 +150,7 @@ input#s-input {
     .img-sec {
         margin-top: 10px;
         padding: 10px;
-        
+
 
     }
 
@@ -170,7 +160,8 @@ input#s-input {
         margin-top: 12px;
 
     }
-}
+} */
+/* 
 @media screen and (min-width: 220px) and (max-width: 365px) {
     .img-card {
         margin-top: 12px;
@@ -179,10 +170,20 @@ input#s-input {
 
     .img-sec {
         margin-top: 10px;
-     
-        
+
+
 
     }
 
-    
+
+} */
+
+.modal-sec {
+    background-color: #E49700;
 }
+.m-sec{
+    height: 285px;
+}
+/* .modal-footer{
+    background-color: #E49700;
+} */
